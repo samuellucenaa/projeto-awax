@@ -63,17 +63,73 @@ header{
     height: calc(100vh - 100px);
     background-image: url(/assets/images/bg.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
+    overflow: hidden;
 }
 
 .banner .sliders{
     width: 1000vw;
     height: 100%;
+    display: inline-block;
 }
 
 .banner .slide{
     width: 100vw;
     height: 100%;
-    display: inline-block;
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.banner .slidearea{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.banner .slidearea h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.banner .slidearea span{
+    color: #B28753;
+}
+
+.banner .slidearea h2{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.banner .slidearea a{
+    text-decoration: none;
+    color: white;
+    background-color: #B28753;
+    margin-top: 30px;
+    padding: 15px 50px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.banner .sliders_pointers{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -35px;
+    color: #B28753;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .pointer{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #B28753;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.banner .pointer.active{
+    background-color: #B28753;
 }

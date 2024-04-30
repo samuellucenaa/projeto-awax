@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 /* CSS DO MENU */
@@ -132,4 +133,87 @@ header{
 }
 .banner .pointer.active{
     background-color: #B28753;
+}
+
+.default{
+    background-color: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.default .section_title,
+.default .section_desc {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.default .section_title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.section_desc{
+    color: #aeaeae;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.section_body{
+    margin: auto;
+    max-width: 1140px;
+
+}
+
+.default.light{
+    background-color: #f7f7f7;
+}
+.default.light .section_title,
+.default.light .section_body{
+    color: black;
+}
+
+.default.dark{
+    background-color: black;
+    color: white;
+}
+
+.default.dark .section_title,
+.default.dark .section_body{
+    color: white;
+}
+
+/* CSS DE ÁREAS ESPECÍFICAS */
+
+.section_aboutus{
+    display: flex;
+}
+
+.section_aboutus_left{
+    flex: 1;
+}
+.section_aboutus_right{
+    width: 500px;
+}
+
+.section_aboutus_left p{
+    font-size: 14px;
+}
+
+.section_aboutus_left a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #B28753;
+    padding: 13px 40px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.section_aboutus_right img{
+    width: 400px;
+    box-shadow: 0px 5px 10px black;
 }

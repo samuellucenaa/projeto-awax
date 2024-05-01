@@ -217,3 +217,19 @@ header{
     width: 400px;
     box-shadow: 0px 5px 10px black;
 }
+
+.section_body .service{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_body .medalha_service{
+    border-left:1px solid #aeaeae;
+}
+
+
+.medalha_service p{
+    font-size: 10px;
+    color: #aeaeae;
+
+}

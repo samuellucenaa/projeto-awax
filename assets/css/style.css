@@ -339,3 +339,66 @@ header{
     border-radius: 15px;
     font-weight: 600;
 }
+
+
+.bg_team{
+    background-image: url(../images/bg.jpg);
+    padding: 0;
+}
+
+.section-team-area{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-team{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+    display: flex;
+}
+
+.section-team .sliders{
+    width: 1000vw;
+    height: 100%;
+}
+
+.section-team .slide{
+    width: 280px;
+    height: 100%;
+    min-height: 300px;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.section-team .slidearea{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section-team-area .sliders_pointers{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top:20px;
+    color: #B28753;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-team-area .pointer{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #B28753;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.section-team-area .pointer.active{
+    background-color: #B28753;
+}

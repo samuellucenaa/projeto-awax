@@ -402,3 +402,20 @@ header{
 .section-team-area .pointer.active{
     background-color: #B28753;
 }
+
+.slidearea img{
+    margin-top: 40px;
+}
+
+.names{
+    color: black;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.names_info{
+    color: black;
+    font-size: 14px;
+    margin-top: 8px;
+}

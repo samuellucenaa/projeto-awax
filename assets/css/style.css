@@ -419,3 +419,15 @@ header{
     font-size: 14px;
     margin-top: 8px;
 }
+
+.section-team--social{
+}
+
+.section-team--social a{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    background-color: #b9b9b9;
+}

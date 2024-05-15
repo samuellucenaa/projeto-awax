@@ -1,2 +1,2 @@
 # projeto-awax
- Projeto do curso da B7Web
+ Projeto do curso FullStack da B7Web

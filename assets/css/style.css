@@ -739,3 +739,13 @@ header{
     font-weight: 500;
     font-size: 13px;
 }
+
+.section-map{
+    background-image: url(../images/mapa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-map--area{
+    
+}

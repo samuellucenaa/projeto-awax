@@ -496,9 +496,6 @@ header{
     height: 350px;
     margin-left: 20px;
     text-align: center;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
 }
 
 
@@ -744,8 +741,44 @@ header{
     background-image: url(../images/mapa.jpg);
     background-size: cover;
     background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section-map--area{
-    
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-map--info{
+    width: 50%;
+    padding: 30px;
+    background-color: #FFF;
+    color: #000;
+}
+
+.section-map--info-item{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: #707070;
+    font-size: 14px;
+}
+
+.section-map--info-item-img{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #aeaeae;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.section-map--info-item-img img{
+    width: 15px;
+    height: auto;
 }

@@ -782,3 +782,88 @@ header{
     width: 15px;
     height: auto;
 }
+
+.footer-area{
+    display: flex;
+    background-color: #000;
+    color: white;
+}
+
+.footer-area-item{
+    margin: auto;
+    margin-top: 30px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.footer-area-item-imgs{
+    display: flex;
+    height: 100%;
+}
+
+.footer-area-item-img{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.active{
+    background-color: #B28753;
+}
+
+.footer-area-item-awax{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer-area-item-text{
+    font-size: 13px;
+    color: #707070;
+}
+
+.footer-area-item-email{
+    background-color: #333;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-area-item-email input{
+    background-color: #333;
+    border: none;
+}
+
+.footer-area-item-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-area-item-email .email{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #707070; 
+    color: #707070;   
+}
+
+.footer-area-item-email .buttom{
+    background-color: #B28753;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFF;
+}
